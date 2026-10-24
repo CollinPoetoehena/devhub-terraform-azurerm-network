@@ -1,6 +1,9 @@
 # devhub-terraform-azurerm-network
 
-> Part of [DevHub/Terraform](https://github.com/CollinPoetoehena/DevHub/blob/main/packages/Terraform.md) — see that file for conventions, structure guidelines, and the full module index.
+**Archived:** Not used anymore, mainly focusing on my [homelab](https://github.com/CollinPoetoehena/devhub-homelab) now.
+
+> For shared package design and engineering practices, see
+[DevHub's Engineering & Coding Reference](https://github.com/CollinPoetoehena/DevHub/blob/main/reference/engineering/README.md). This README covers this package's setup, usage, design decisions, and exceptions.
 
 Terraform module that creates a complete Azure network stack — VNets, peerings, NSGs, subnets, and NSG associations.
 
