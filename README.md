@@ -1,6 +1,6 @@
 # devhub-terraform-azurerm-network
 
-**Archived:** Not used anymore, mainly focusing on my [homelab](https://github.com/CollinPoetoehena/devhub-homelab) now.
+> **Archived**: This repository is archived and no longer maintained. This module was originally created as a reusable abstraction, but the functionality is small and specific to the platform that consumes it. Maintaining it as a separate role therefore adds unnecessary development, dependency, release, and maintenance overhead without providing meaningful reuse. The functionality has been moved closer to its actual usage. Going forward, existing reusable functionality should be preferred over creating and maintaining custom abstractions unless there is a clear need for reuse across independent consumers. For example, the Terraform module for Azure is already the reusable layer and wrapping it in a custom module would only be useful if it actually adds value such as custom processing, but in this case it did not add value.
 
 > For shared package design and engineering practices, see
 [DevHub's Engineering & Coding Reference](https://github.com/CollinPoetoehena/DevHub/blob/main/reference/engineering/README.md). This README covers this package's setup, usage, design decisions, and exceptions.
